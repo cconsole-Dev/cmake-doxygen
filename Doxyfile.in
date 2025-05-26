@@ -4,7 +4,7 @@ INPUT                   = @INPUT_DIR@
 GENERATE_HTML           = YES
 GENERATE_LATEX          = NO
 
-HTML_STYLESHEET = docs/doxygen-awesome/doxygen-awesome.css
-HTML_EXTRA_FILES = docs/doxygen-awesome/doxygen-awesome.js \
-                   docs/doxygen-awesome/font-awesome.min.css \
-                   docs/doxygen-awesome/font-awesome.min.js
+HTML_STYLESHEET =  @DOXYGEN_AWESOME@/doxygen-awesome.css
+HTML_EXTRA_FILES = @DOXYGEN_AWESOME@/doxygen-awesome.js \
+                   @DOXYGEN_AWESOME@/font-awesome.min.css \
+                   @DOXYGEN_AWESOME@/font-awesome.min.js
