@@ -1,0 +1,10 @@
+PROJECT_NAME            = @PROJECT_NAME@
+OUTPUT_DIRECTORY        = @OUTPUT_DIRECTORY@
+INPUT                   = @INPUT_DIR@
+GENERATE_HTML           = YES
+GENERATE_LATEX          = NO
+
+HTML_STYLESHEET = docs/doxygen-awesome/doxygen-awesome.css
+HTML_EXTRA_FILES = docs/doxygen-awesome/doxygen-awesome.js \
+                   docs/doxygen-awesome/font-awesome.min.css \
+                   docs/doxygen-awesome/font-awesome.min.js
