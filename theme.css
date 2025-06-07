@@ -1,0 +1,52 @@
+html {
+    /* primary theme color. This will affect the entire website's color scheme: links, arrows, labels, ... */
+    --primary-color: #FF7F24;          /* Orange */
+    --primary-dark-color: #E76F1B;     /* Darker orange */
+    --primary-light-color: #FFA54D;    /* Light orange */
+    --primary-lighter-color: #FFD8A8;  /* Lighter orange */
+    --primary-lightest-color: #FFF3E0; /* Very light orange */
+
+    /* page base colors */
+    --page-background-color: white;
+    --page-foreground-color: #2c3e50;
+    --page-secondary-foreground-color: #67727e;
+
+    --border-radius-large: 22px;
+    --border-radius-small: 9px;
+    --border-radius-medium: 14px;
+    --spacing-small: 8px;
+    --spacing-medium: 14px;
+    --spacing-large: 19px;
+
+    --top-height: 125px;
+
+    --side-nav-background: #6B4F1D; /* Dark brownish orange */
+    --side-nav-foreground: #FFF8F0; /* Very light cream */
+    --header-foreground: var(--side-nav-foreground);
+    --searchbar-background: var(--side-nav-foreground);
+    --searchbar-border-radius: var(--border-radius-medium);
+    --header-background: var(--side-nav-background);
+    --header-foreground: var(--side-nav-foreground);
+
+    --toc-background: rgb(255, 243, 224);
+    --toc-foreground: var(--page-foreground-color);
+}
+
+html.dark-mode {
+    color-scheme: dark;
+
+    --primary-color: #FF7F24;
+    --primary-dark-color: #E76F1B;
+    --primary-light-color: #CC6600;    /* Darker orange for dark mode */
+    --primary-lighter-color: #3B2A0F;  /* Very dark brown/orange */
+    --primary-lightest-color: #1E1607; /* Almost black brown */
+
+    --page-background-color: #1C1D1F;
+    --page-foreground-color: #d2dbde;
+    --page-secondary-foreground-color: #859399;
+    --separator-color: #3a3246;
+    --side-nav-background: #2F250C; /* Darker brown-orange */
+    --side-nav-foreground: #FFF8F0;
+    --toc-background: #3B2A0F;
+    --searchbar-background: var(--page-background-color);
+}

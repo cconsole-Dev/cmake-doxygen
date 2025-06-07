@@ -5,6 +5,7 @@ GENERATE_HTML           = YES
 GENERATE_LATEX          = NO
 
 HTML_STYLESHEET =  @DOXYGEN_AWESOME@/doxygen-awesome.css
+HTML_EXTRA_STYLESHEET = @DOXYGEN_AWESOME@/doxygen-awesome-sidebar-only.css @CMAKE_DOXYGEN@/theme.css
 HTML_EXTRA_FILES = @DOXYGEN_AWESOME@/doxygen-awesome.js \
                    @DOXYGEN_AWESOME@/font-awesome.min.css \
                    @DOXYGEN_AWESOME@/font-awesome.min.js
